@@ -1,0 +1,27 @@
+{
+	"name": "herkyl/aboardly-php",
+	"version": "0.1.0",
+	"description": "Official Aboardly API library client for PHP",
+	"homepage": "http://www.aboardly.com/",
+	"authors": [
+		{
+			"name": "Serge",
+			"email": "s.herkyl+composer@gmail.com",
+			"homepage": "http://github.com/herkyl"
+		}
+	],
+	"keywords": ["aboardly", "alpaca", "api", "client", "library"],
+	"autoload": {
+		"psr-0": {
+			"Aboardly\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.7.*"
+	},
+	"support": {
+		"issues": "https://github.com/herkyl/aboardly-php/issues"
+	},
+	"license": "MIT"
+}
