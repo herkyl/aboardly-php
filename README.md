@@ -13,7 +13,7 @@ Add the following to your composer.json
 ```js
 {
     "require": {
-        "aboardly/aboardly": "dev-master"
+        "aboardly/aboardly": "1.*"
     }
 }
 ```
