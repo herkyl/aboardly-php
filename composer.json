@@ -1,5 +1,5 @@
 {
-	"name": "aboardly",
+	"name": "aboardly/aboardly",
 	"version": "0.1.0",
 	"description": "Official Aboardly API library client for PHP",
 	"homepage": "http://www.aboardly.com/",
