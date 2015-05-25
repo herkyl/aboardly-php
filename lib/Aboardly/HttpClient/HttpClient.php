@@ -18,7 +18,7 @@ use Aboardly\HttpClient\ResponseHandler;
 class HttpClient
 {
     protected $options = array(
-        'base'    => 'http://localhost:5100/api/v1/',
+        'base'    => 'http://beta.aboardly.com/api/v1/',
         'user_agent' => 'alpaca/0.2.1 (https://github.com/pksunkara/alpaca)'
     );
 
