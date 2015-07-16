@@ -18,8 +18,8 @@ use Aboardly\HttpClient\ResponseHandler;
 class HttpClient
 {
     protected $options = array(
-        'base'    => 'http://beta.aboardly.com/api/v1/',
-        'user_agent' => 'alpaca/0.2.1 (https://github.com/pksunkara/alpaca)'
+        'base'    => 'https://www.aboardly.com/api/v1/',
+        'user_agent' => 'aboardly-php'
     );
 
     protected $headers = array();
