@@ -27,7 +27,8 @@ class Events
      */
     public function create($customerId, $eventName, array $options = array())
     {
-        $body = array();
+        $body = $options;
+
         $response = $this->client->post('customers/'.rawurlencode($customerId).'/events/'.rawurlencode($eventName).'', $body, $options);
 
         return $response;
