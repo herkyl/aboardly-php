@@ -4,9 +4,9 @@
 	"homepage": "http://www.aboardly.com/",
 	"authors": [
 		{
-			"name": "Serge",
-			"email": "s.herkyl+composer@gmail.com",
-			"homepage": "http://github.com/herkyl"
+			"name": "Martin",
+			"email": "info@aboardly.com",
+			"homepage": "http://github.com/landland"
 		}
 	],
 	"keywords": ["aboardly", "alpaca", "api", "client", "library"],
@@ -20,7 +20,7 @@
 		"guzzle/guzzle": "3.7.*"
 	},
 	"support": {
-		"issues": "https://github.com/herkyl/aboardly-php/issues"
+		"issues": "https://github.com/landland/aboardly-php/issues"
 	},
 	"license": "MIT"
 }
